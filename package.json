@@ -3,10 +3,6 @@
   "version": "0.3.0",
   "description": "A plugin for UI-Bootstrap that provides component templates using Font-Awesome, instead of Glyphicons",
   "main": "Gruntfile.js",
-  "scripts": {
-    "postinstall" : "node_modules/.bin/bower install",
-    "test": "grunt test"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/maxfierke/ui-bootstrap-fontawesome"
