@@ -22,7 +22,7 @@ An addon Angular module for users of Angular-UI Bootstrap that would like to use
 ### Prepare your environment
 * Install [Node.js](http://nodejs.org/) and NPM (should come with)
 * Install global dev dependencies: `npm install -g grunt-cli karma`
-* Install local dev dependencies: `npm install` while current directory is the ui-bootstrap-fontawesome repo. This will also run `bower install`, so no need to do that seperately.
+* Install local dev dependencies: `npm install` while current directory is the ui-bootstrap-fontawesome repo. ~~This will also run `bower install`, so no need to do that seperately.~~  You must also manually run `bower install`.  Scripts with spaces in package.json break Yarn.
 
 ### Build
 This project has shamelessly stolen the build machinery from Angular-UI Bootstrap, making it ridiculously easy to lint, test, and build the project by just running `grunt`. Seriously, it's awesome and *So Agile d00d*&trade;.
